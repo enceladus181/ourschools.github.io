@@ -1,0 +1,43 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+    background: -webkit-linear-gradient(#ffe5c4 17%, #f7a947 34%, #ff59a3 51%, #ba88fc 68%, #81adf9 85%, #5ce097 100%);
+    background: -o-linear-gradient(#ffe5c4 17%, #f7a947 34%, #ff59a3 51%, #ba88fc 68%, #81adf9 85%, #5ce097 100%);
+    background: linear-gradient(#ffe5c4 17%, #f7a947 34%, #ff59a3 51%, #ba88fc 68%, #81adf9 85%, #5ce097 100%);
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.flex-item {
+	height: 30px;
+	background-color: rgb(166, 95, 252, 0.6);
+	padding: 0 10px 0 10px;
+	vertical-align: middle;
+	padding-top: 5px;
+	width: 170px;
+	text-align: center;
+	transition: background 300ms ease;
+	border-radius: 0;
+}
+
+.flex-item:first-child {
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.flex-item:last-child {
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.flex-item:hover {
+	background-color: rgb(166, 95, 252, 0.35);
+}
+
