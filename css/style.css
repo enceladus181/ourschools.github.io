@@ -41,3 +41,13 @@ body {
 	background-color: rgb(166, 95, 252, 0.35);
 }
 
+@media(max-width: 700px) {
+	.flex-container {
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	.flex-item {
+		border-radius: 50px;
+	}
+}
